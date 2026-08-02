@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <script>
+      // GitHub Pages SPA fallback: preserve path and query, then redirect to root.
+      var l = window.location;
+      var pathAndQuery = l.pathname + l.search + l.hash;
+      l.replace(l.origin + "/" + (pathAndQuery.split("/").slice(2).join("/") || ""));
+    </script>
+  </head>
+  <body>Redirecting…</body>
+</html>
